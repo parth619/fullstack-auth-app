@@ -12,8 +12,7 @@ This project allows users to create, view, and interact with posts, similar to c
 - Built with **React 18+** using functional components and hooks.
 - Displays posts, polls, and discussions in a modern UI.
 - Create new posts dynamically.
-- Vote, comment, and save posts locally.
-- Category and tag-based filtering.
+- Vote, comment, and save posts.
 - Real-time search and sorting (Trending, Newest, Top).
 - Responsive and minimal UI using CSS and flexbox/grid.
 
@@ -35,23 +34,41 @@ This project allows users to create, view, and interact with posts, similar to c
 
 │
 ├── backend/
+
 │ ├── server.js
+
 │ ├── .env
+
 │ ├── models/
+
 │ │ └── Post.js
+
 │ ├── routes/
+
 │ │ └── postRoutes.js
+
 │ └── controllers/
+
 │ └── postController.js
+
 │
+
 ├── frontend/
+
 │ ├── src/
-│ │ ├── pages/
+
+│ │ ├── pages
+
 │ │ │ └── Home.jsx
+
 │ │ ├── components/
+
 │ │ ├── App.jsx
+
 │ │ └── index.js
+
 │ └── package.json
+
 │
 └── README.md
 
@@ -151,41 +168,29 @@ MongoDB Compass showing stored posts
 
 
 
-🏁 Future Enhancements
+Future Enhancements
 
 
-🔐 User authentication (login/register)
+User authentication (login/register)
 
 
-💬 Real-time comments with Socket.io
+Real-time comments with Socket.io
 
 
-❤️ Emoji reactions & analytics
+ moji reactions & analytics
 
 
-📊 Poll results visualization
+Poll results visualization
 
 
-🧑‍🤝‍🧑 User profiles & reputation
+User profiles & reputation
 
 
-
-📄 License
-This project is licensed under the MIT License.
-
-👩‍💻 Author
-Bhakti Parkhi
-💬 “Building open and connected communities with code.”
-
-
----
-
-Would you like me to make this README include **live deployment instructions** too (for Render/Vercel or Netlify)?  
-If you plan to host it, I can extend this file accordingly.
 
 
 
 
  
  
+
 
